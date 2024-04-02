@@ -75,8 +75,8 @@ define( 'USER_COOKIE',          $cookie_prefix.'account_'      . COOKIEHASH );
 define( 'PASS_COOKIE',          $cookie_prefix.'account_pass_'      . COOKIEHASH );
 define( 'AUTH_COOKIE',          $cookie_prefix           . COOKIEHASH );
 define( 'SECURE_AUTH_COOKIE',   $cookie_prefix.'aut_sec_'       . COOKIEHASH );
-define( 'LOGGED_IN_COOKIE',     $cookie_prefi.'logged_in_' . COOKIEHASH );
-define( 'TEST_COOKIE',          $cookie_prefi.'skp_cookie'             );
+define( 'LOGGED_IN_COOKIE',     $cookie_prefix.'logged_in_' . COOKIEHASH );
+define( 'TEST_COOKIE',          $cookie_prefix.'skp_cookie'             );
 
 /* Site Info */
 define( 'WP_HOME', 'DOMAIN_HERE');
